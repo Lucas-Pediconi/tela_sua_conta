@@ -12,76 +12,6 @@ body {
     flex-direction: column;
 }
 
-/* Cabeçalho */
-#cabecalho {
-    background-color: #3B0BB5;
-    padding: 15px 50px;
-}
-
-#menu_principal {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo img {
-    height: 40px;
-    width: auto;
-}
-
-#menu {
-    list-style: none;
-    display: flex;
-    gap: 60px;
-}
-
-#menu a {
-    /*remove o sublinhado*/
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    transition: 0.3s;
-    /*espaçamento entre as letras*/
-    letter-spacing: 0.5px;
-}
-
-#menu a:hover {
-    opacity: 0.8;
-}
-
-.botao {
-    background-color: #00B894;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 6px;
-    font-weight: 700;
-    /*remove o sublinhado*/
-    text-decoration: none;
-    /*espaçamento entre as letras*/
-    letter-spacing: 0.5px;
-    transition: 0.3s;
-    white-space: nowrap;
-}
-
-.botao:hover {
-    opacity: 0.9;
-}
-
-.botao {
-    background-color: #00B894;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 6px;
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    transition: 0.3s;
-}
-
-.botao:hover {
-    opacity: 0.9;
-}
-
 /* Conteúdo Principal */
 .conteudo-principal {
     flex: 1;
@@ -102,7 +32,7 @@ body {
 .titulo-conta {
     font-size: 3rem;
     color: #333;
-    margin-bottom: 3rem;
+    margin-bottom: 90px;
     font-weight: bold;
 }
 
@@ -182,94 +112,7 @@ body {
     color: #ef4444;
 }
 
-/* Rodapé */
-#rodape {
-    padding: 40px 80px;
-    background-color: #3A0CA3;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    flex-wrap: wrap;
-    margin-top: auto;
-}
 
-/* ------------------ SEÇÃO LOGO ------------------ */
-
-#logo img {
-    height: 40px;
-    width: auto;
-}
-
-/* ------------------ SEÇÃO INSTITUCIONAL (Menu) ------------------ */
-
-#menu_lista {
-    padding: 0;
-    margin: 0;
-}
-
-#menu_lista li {
-    list-style: none;
-    margin-bottom: 5px;
-}
-
-#menu_lista a {
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-#menu_lista a:hover {
-    text-decoration: underline;
-    color: #dedede;
-}
-
-/* ------------------ ESTILO DOS TÍTULOS ------------------ */
-
-nav h2,
-#redes_sociais h2 {
-    font-size: 1em;
-    margin-bottom: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* ------------------ SEÇÃO REDES SOCIAIS ------------------ */
-
-#redes_sociais {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#menus_redes {
-    display: flex;
-    gap: 15px;
-}
-
-/* ------------------ ESTILOS DE ÍCONES (Links) ------------------ */
-
-#menus_redes a {
-    margin-top: center;
-    margin-left: 4px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: transparent;
-    font-size: 1.5em;
-    transition: color 0.3s ease;
-    text-decoration: none;
-}
-
-#menus_redes a:hover {
-    background-color: transparent;
-    color: #dedede;
-}
 
 /* Responsividade */
 @media (max-width: 768px) {
